@@ -15,3 +15,4 @@ export const decompress = async () => {
 
     read.pipe(zip).pipe(write)
 }
+decompress()

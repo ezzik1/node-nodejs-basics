@@ -1,11 +1,11 @@
 import { Readable, Transform, Writable } from 'stream'
 
-export const transform = async () => {
+export const transform = (async () => {
     const reading = new reader()
     const writing = new writer()
     const transforming = new transform()
     reading.pipe(transforming).pipe(writing)
-}
+})()
 
 class reader extends Readable {
     _read() {
@@ -32,3 +32,4 @@ class transform extends Transform {
         callback()
     }
 }
+

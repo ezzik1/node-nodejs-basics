@@ -17,3 +17,4 @@ export const calculateHash = async () => {
         process.stderr.write('Hash error\n')
     }
 }
+calculateHash()
