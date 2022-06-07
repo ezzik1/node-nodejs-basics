@@ -12,3 +12,4 @@ export const parseArgs = () => {
     })
     process.stdout.write(retArr.join('; ') + '\n')
 }
+parseArgs()

@@ -16,3 +16,5 @@ export const write = async () => {
         process.stdout.write('Read stream error\n')
     }
 }
+
+write()

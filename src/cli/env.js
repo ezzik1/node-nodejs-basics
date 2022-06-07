@@ -6,3 +6,4 @@ export const parseEnv = () => {
     const res = arr.map((e) => e + '=' + process.env[e]).join('; ')
     process.stdout.write(res + '\n')
 }
+parseEnv()

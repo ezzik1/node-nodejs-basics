@@ -14,3 +14,4 @@ export const read = async () => {
         process.stdout.write(data + '\n')
     })
 }
+read()

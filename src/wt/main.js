@@ -32,3 +32,4 @@ export const performCalculations = async () => {
 
     return res
 }
+performCalculations()

@@ -14,3 +14,4 @@ export const list = async () => {
         process.stdout.write(files.toString() + '\n')
     })
 }
+list()
